@@ -12,7 +12,7 @@
 <div><b>Abstract:</b> Recurrent neural networks (RNNs), such as Transformers, GRUs, were important neural network architectures in speech enhancement, due to their powerful sequence learning. However, it severely suffers from an issue: unable to parallelize the sequential computation procedure. Therefore, many non-recurrent sequence models that are built on convolution and attention operations have been proposed recently. Notably, models with multi-head attention such as Transformer have demonstrated extreme effectiveness on many natural language processing (NLP) tasks. However, they are non-trivial to apply to speech enhancement due to heavily rely on position embeddings that require a considerable amount of design efforts. In this paper, we propose the SETransformer which enjoys the advantages of both RNNs and the multi-head attention mechanism while avoids their respective drawback. Experiments show that, as compared with the standard Transformer and the Transformers baseline, the proposed attention approach can consistently achieve better performance in terms of speech quality (PESQ) and intelligibility (STOI) on unseen noise conditions.</div>
 
 
-<h4>Comparing of different models(Clean, Noisy, Transformer, Transformer, SETransformer): </h4>
+<h4>Comparing of different models(Clean, Noisy, LSTM, Transformer, SETransformer): </h4>
 
 <table border="1">
   <tr>
